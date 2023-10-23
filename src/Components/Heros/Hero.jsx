@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import hand_icon from "../Assets/hand_icon.png";
+// import hand_icon from "../Assets/hand_icon.png";
+import bag_icon from '../Assets/bag.png';
 import arrow_icon from "../Assets/arrow.png";
 import hero_image from "../Assets/hero_image.png";
 import hero_image_girl from '../Assets/heroimage_girl.png'
@@ -12,11 +13,10 @@ function Hero() {
         <h2>NEW ARRIVALS ONLY</h2>
         <div>
           <div className="hero-hand-icon">
-            <p>new</p>
-            <img src={hand_icon} alt="" />
+            <p>New</p>
+            <img src={bag_icon} alt="" />
           </div>
-          <p>collections</p>
-          <p>for everyone</p>
+          <p>Collections</p>
         </div>
         <div className="hero-latest-btn">
           <div>Latest Collection</div>
