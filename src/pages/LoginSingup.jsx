@@ -6,7 +6,7 @@ function LoginSingup() {
             <div className='loginsignup-container'>
                 <h1>Sign Up</h1>
                 <div className="loginsignup-fields">
-                    <input type="text" name="" id="" placeholder='Your Nanme' />
+                    <input type="text" name="" id="" placeholder='Your Name' />
                     <input type="email" name="" id="" placeholder='Email Address' />
                     <input type="password" name="" id="" placeholder='Password' />
                 </div>

@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer'>
             <div className="footer-logo">
                 <img src={footer_logo} alt="" />
-                <p>CLOTHE SHOP</p>
+                <p>CLOTHES SHOP</p>
             </div>
             <ul className="footer-links">
                 <li>Company</li>
